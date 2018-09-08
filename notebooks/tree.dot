@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-0 [label="chest_pain <= 3.5\ngini = 0.49\nsamples = 148\nvalue = [131, 106]\nclass = setosa", fillcolor="#e5813931"] ;
-1 [label="thal <= 6.5\ngini = 0.32\nsamples = 74\nvalue = [93, 23]\nclass = setosa", fillcolor="#e58139c0"] ;
+0 [label="chest_pain <= 3.5\ngini = 0.49\nsamples = 148\nvalue = [133, 104]\nclass = setosa", fillcolor="#e5813938"] ;
+1 [label="thal <= 4.5\ngini = 0.3\nsamples = 78\nvalue = [99, 22]\nclass = setosa", fillcolor="#e58139c6"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.21\nsamples = 56\nvalue = [79, 11]\nclass = setosa", fillcolor="#e58139db"] ;
+2 [label="gini = 0.11\nsamples = 53\nvalue = [80, 5]\nclass = setosa", fillcolor="#e58139ef"] ;
 1 -> 2 ;
-3 [label="gini = 0.5\nsamples = 18\nvalue = [14, 12]\nclass = setosa", fillcolor="#e5813924"] ;
+3 [label="gini = 0.5\nsamples = 25\nvalue = [19, 17]\nclass = setosa", fillcolor="#e581391b"] ;
 1 -> 3 ;
-4 [label="max_heart_rate <= 146.5\ngini = 0.43\nsamples = 74\nvalue = [38, 83]\nclass = versicolor", fillcolor="#399de58a"] ;
+4 [label="restecg <= 0.5\ngini = 0.41\nsamples = 70\nvalue = [34, 82]\nclass = versicolor", fillcolor="#399de595"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="gini = 0.25\nsamples = 42\nvalue = [9, 53]\nclass = versicolor", fillcolor="#399de5d4"] ;
+5 [label="gini = 0.5\nsamples = 30\nvalue = [24, 26]\nclass = versicolor", fillcolor="#399de514"] ;
 4 -> 5 ;
-6 [label="gini = 0.5\nsamples = 32\nvalue = [29, 30]\nclass = versicolor", fillcolor="#399de508"] ;
+6 [label="gini = 0.26\nsamples = 40\nvalue = [10, 56]\nclass = versicolor", fillcolor="#399de5d1"] ;
 4 -> 6 ;
 }
